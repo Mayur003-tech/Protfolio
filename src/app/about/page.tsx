@@ -54,7 +54,7 @@ export default function About() {
           {/* Left: Text */}
           <div ref={textRef} className="space-y-6 md:order-0 order-1">
             <p className="text-lg text-gray-200">
-              Hello! I'm{" "}
+              Hello! I am{" "}
               <span className="text-white font-bold">Mayur Gotmare</span>, a
               passionate and detail-oriented Frontend Developer. I enjoy creating
               clean, responsive, and intuitive interfaces that enhance user
@@ -64,11 +64,11 @@ export default function About() {
               My primary tools include{" "}
               <span className="text-white font-medium">React, Next.js, Tailwind CSS</span>
               , and I love transforming ideas into beautifully functional websites.
-              I'm always curious and enjoy solving problems, whether it's
+              I am always curious and enjoy solving problems, whether it is
               optimizing UI performance or debugging complex code.
             </p>
             <p className="text-lg text-gray-200">
-              Beyond coding, I’m an open-source contributor, design enthusiast,
+              Beyond coding, I am an open-source contributor, design enthusiast,
               and a lifelong learner always eager to explore new technologies.
             </p>
           </div>
