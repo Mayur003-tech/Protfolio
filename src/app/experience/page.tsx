@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+    <section className="py-20 bg-gradient-to-r from-[#375094] to-[#495057] text-white">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-extrabold text-center mt-5 mb-10">Experience</h1>
 

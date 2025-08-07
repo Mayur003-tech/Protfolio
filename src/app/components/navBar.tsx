@@ -16,16 +16,16 @@ export default function Navbar() {
         style={{ width: "16rem" }} // 14rem drawer + 2rem hamburger
       >
         {/* Drawer */}
-        <div className="w-56 h-full bg-gradient-to-r from-blue-500/80 to-purple-500/80 bg-white/70 backdrop-blur- text-white shadow-lg flex flex-col pt-20 space-y-6 pl-4">
+        <div className="w-56 h-full bg-gradient-to-br from-[#87CEEB]/70 via-[#B0C4DE]/60 to-purple-400/60 backdrop-blur- shadow-lg text-[#4A4A4A] font-semibold flex flex-col pt-20 space-y-6 pl-4">
           <Link href="/about" onClick={() => setMenuOpen(false)} className="px-8 py-2 hover:bg-white/20 rounded">about</Link>
           <Link href="/experience" onClick={() => setMenuOpen(false)} className="px-8 py-2 hover:bg-white/20 rounded">Experirence</Link>
           <Link href="/project" onClick={() => setMenuOpen(false)} className="px-8 py-2 hover:bg-white/20 rounded">Projets</Link>
           <Link href="/skills" onClick={() => setMenuOpen(false)} className="px-8 py-2 hover:bg-white/20 rounded">Skills</Link>
-          <Link href="" onClick={() => setMenuOpen(false)} className="px-8 py-2 hover:bg-white/20 rounded">Contact</Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)} className="px-8 py-2 hover:bg-white/20 rounded">Contact</Link>
         </div>
         {/* Hamburger Tab at the right edge, centered vertically */}
         <button
-          className="absolute right-0 top-1/2 -translate-y-1/2 h-16 w-8 bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg flex items-center justify-center
+          className="absolute right-0 top-1/2 -translate-y-1/2 h-16 w-8 bg-gradient-to-br from-[#4682B4] to-[#2A5A88] text-white shadow-lg flex items-center justify-center
             rounded-none focus:outline-none transition-all duration-200"
           style={{
             borderTopRightRadius: "1rem",
@@ -58,11 +58,22 @@ export default function Navbar() {
         <div className="max-w-[425px] mx-auto px-4 flex items-center justify-between h-16 mt-3 backdrop-blur-lg bg-white/10 rounded-full shadow-md">
           <div >
             <a rel="stylesheet" href="/">
-            <Image src={"/M-removebg-preview.png"} alt="Logo" width={50} height={50} className="rounded-ee-xs" />
+            <Image src={"/png/logo.png"} alt="Logo" width={50} height={50} className="rounded-ee-xs" />
             </a>
-            
           </div>
+         
           <div className="font-extrabold">Mayur Gotmare</div>
+
+           <div className=" flex  space-x-4">
+              <a href="https://www.linkedin.com/in/mayurtech/" target="_blank" rel="noopener noreferrer">
+                <Image src={"/png/linkedin.png"} alt="Linked" width={40} height={40} className="rounded-ee-xs" />
+                
+              </a>
+              <a href="https://github.com/Mayur003-tech/" target="_blank" rel="noopener noreferrer">
+                <Image src={"/png/github.png"} alt="GitHub" width={40} height={40} className="rounded-ee-xs" />
+              </a>
+            </div>
+
         </div>
       </nav>
     </>
