@@ -154,7 +154,7 @@ export default function Hero() {
             src="/svg/Collab-bro.svg"
             alt="Mayur Gotmare"
             width={500}
-            height={400}
+            height={300}
             className="object-cover transition-transform transform hover:scale-105 hero-img"
           />
         </div>

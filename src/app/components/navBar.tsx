@@ -57,9 +57,9 @@ export default function Navbar() {
       <nav className="fixed top-0 w-full z-40 px-2 lg:px-0">
         <div className="max-w-[425px] mx-auto px-4 flex items-center justify-between h-16 mt-3 backdrop-blur-lg bg-white/10 rounded-full shadow-md">
           <div >
-            <a rel="stylesheet" href="/">
+            <Link rel="stylesheet" href="/">
             <Image src={"/png/logo.png"} alt="Logo" width={50} height={50} className="rounded-ee-xs" />
-            </a>
+            </Link>
           </div>
          
           <div className="font-extrabold">Mayur Gotmare</div>

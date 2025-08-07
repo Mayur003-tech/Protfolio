@@ -38,7 +38,7 @@ export default function Experience() {
                   <h2 className="text-xl font-bold mb-1">IEEE-CIS GHRCE ,ChairPerson</h2>
                   <p className="text-sm text-gray-200 mb-3">•G H Raisoni College Of Engineering , Nagpur <br /> •Oct 2024 – Present</p>
                   <p className="text-white text-base leading-relaxed">
-                   Leading the IEEE Computational Intelligence Society at GHRCE, overseeing the planning and execution of AI/ML-focused events and workshops. Managing a team of volunteers, fostering student engagement, and driving the chapter's technical growth and outreach.
+                   Leading the IEEE Computational Intelligence Society at GHRCE, overseeing the planning and execution of AI/ML-focused events and workshops. Managing a team of volunteers, fostering student engagement, and driving the chapters technical growth and outreach.
                   </p>
                 </div>
               </div>
